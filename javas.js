@@ -20,6 +20,11 @@ function getComputerChoice(){
     return computerSelects;
 }
 
+function getplayerChoice(){
+    playerSelects = prompt("Rock, Paper, Scissors?: ").toLowerCase();
+    console.log(`You chose ${playerSelects}.`)
+    return (`You choose ${playerSelects}`);
+}
 
 
 //This function plays a single round of Rock Paper Scissors. The function should take two parameters:
@@ -68,9 +73,5 @@ function game(){
 
 }
 
-function getplayerChoice(){
-    playerSelects = prompt("Rock, Paper, Scissors?: ").toLowerCase();
-    console.log(`You chose ${playerSelects}.`)
-    return (`You choose ${playerSelects}`);
-}
+
 
