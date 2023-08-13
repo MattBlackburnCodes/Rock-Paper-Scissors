@@ -27,6 +27,18 @@ body{
     margin: 20px;
 }
 
+.tally{
+    background-color: white;;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+
 .middle{
     background-color: #fff;
     border: 1px solid #ccc;
