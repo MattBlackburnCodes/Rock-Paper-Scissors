@@ -113,10 +113,12 @@ function playRound(playerSelection, computerSelection) {
 function gameResults(){
     if (playerWinCount === 5){
         gameResult.textContent = ("You won the game! You are the champion of the world!");
+        window.location.href = "./results/playerWins.html"
         resetGame();
     }
     else if (computerWinCount === 5){
         gameResult.textContent = ("You have lost the game to the computer! All hope for humanity is lost!");
+        window.location.href = "./results/compWins.html"
         resetGame();
     }
     else {
@@ -125,23 +127,6 @@ function gameResults(){
     
 }
 
-/*function game(){
-
-    //Loops the game 5 times
-    for (let i = 0; i < 5; i++){
-        //Get the player and computer choices
-        //getPlayerChoice();
-        getComputerChoice();
-
-        //Plays a single round
-        let result = playRound(playerSelects, computerSelects);
-        console.log(result);
-        
-    }
-    resetGame();
-    
-
-}*/
 
 
 
