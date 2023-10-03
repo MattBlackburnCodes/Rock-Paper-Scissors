@@ -1,0 +1,97 @@
+/*This is the stylesheet for the ./index.html page.*/
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    width: 20%;
+    margin: 20px;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}  
+
+.top{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    margin: 20px;
+}
+
+.tally{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    width: 20%;
+
+}
+
+.item{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    margin: 20px;
+}
+
+.outcome{
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 30%;
+    margin: 20px;
+}
+
+.output{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+
+}
