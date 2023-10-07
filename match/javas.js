@@ -31,8 +31,8 @@ function resetGame(){
 //This function randomly returns either ‘Rock’, ‘Paper’ or ‘Scissors’.
 function getComputerChoice(){
     computerSelects = ["rock", "paper", "scissors"][Math.floor(Math.random() * 3)];
-    compOutput.textContent = `The computer chose ${computerSelects}.`;
-    console.log(`The computer chose ${computerSelects}.`)
+    compOutput.textContent = `Computer chose ${computerSelects}.`;
+    console.log(`Computer chose ${computerSelects}.`)
     return computerSelects;
 }
 
